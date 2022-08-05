@@ -1,0 +1,108 @@
+#main-inicio-sesion {
+    height: 80vh;
+    display: grid;
+    grid-template-rows: repeat(2, 20vh) 15vh 5vh 5vh;
+    grid-template-areas: "email" "contrasena" "selector-pais" "boton-terminos" "boton-inicio";
+    padding: 10px;
+
+        form.email {
+            grid-area: "email";
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div.mb-3 {
+                label.form-label {
+                    color: $color-cuaternario;
+                    font-size: $f-size;               
+                }
+                input#exampleInputEmail1.form-control {
+                    font-size: $f-size-textos;
+                    background-color: $color-form;
+                    border:solid 3px $color-principal;
+                }
+                div#emailHelp.form-text {
+                    font-size: $f-size-textos;
+                    color: $color-cuaternario;
+                }
+            }
+        }
+        form.contrasena {
+            grid-area: "contrasena";
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div.mb-3 {
+                label.form-label {
+                    color: $color-cuaternario;
+                    font-size: $f-size;               
+                }
+                input#exampleInputPassword1.form-control {
+                    font-size: $f-size-textos;
+                    background-color: $color-form;
+                    color: $color-cuaternario;
+                    border:solid 3px $color-principal;
+                }
+                span#passwordHelpInline.form-text {
+                    font-size: $f-size-textos;
+                    color: $color-cuaternario;
+                }
+            }        
+        }
+        
+        form.pais {
+            grid-area:"selector-pais";
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            div.mb-3 { 
+                label.form-label {
+                    color: $color-cuaternario;
+                    font-size: $f-size;  
+
+                }
+                select#disabledSelect.form-select {
+                    font-size: $f-size-textos;
+                    color: $color-cuaternario;
+                    background-color: $color-form;
+                    border:solid 3px $color-principal;
+                }
+            }
+        }
+
+        div.mb-3.form-check {
+            grid-area: "boton-terminos";
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            input#exampleCheck1.form-check-input {
+                background-color: $color-terciario;
+                
+            }
+            label.form-check-label {
+                font-size: $f-size-textos;
+                color: $color-cuaternario;
+                padding-left: 5px;
+            }
+        }
+
+        a.btn.btn-primary {
+            grid-area: "boton-inicio";
+            height: 50px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $color-terciario;
+            border: $color-cuaternario;
+            font-size: $f-size-textos;
+                &:hover{
+                    transform: scale(1.05);
+                }
+        }
+       
+        
+}
+
+
+
+

@@ -1,0 +1,65 @@
+main{
+    background-color: $color-secundario;
+
+    .container-fluid {
+        padding-top: 10px;
+        padding-bottom: 10px;
+            .card-body {
+                text-align: center;
+                    a {
+                        color: $color-terciario;
+                    &:hover {
+                        transform: scale(2);
+                    }
+                }
+                    svg {
+                        &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+        }
+    }  
+
+    .software {
+        height:60vh;
+            section {
+                height: 60vh;
+                    img {
+                        height:60vh;
+                    }
+                    div {
+                        h2 {
+                            color: $color-terciario; 
+                        }
+                    }
+            }
+        a.btn.btn-primary {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $color-cuaternario;  
+            background-color: $color-terciario;
+            border: $color-principal;
+            font-size: $f-size-textos;
+            height: 70px;
+            width: 350px;
+                &:hover {          
+                    border:$color-cuaternario;
+                    transform: scale(1.1);
+                    }
+            }
+                
+                p {
+                    color: $color-terciario; 
+                }   
+                img {
+                    filter: brightness(.33);
+                    filter: blur(5px);
+                }
+    }
+}
+       
+
+
+
+

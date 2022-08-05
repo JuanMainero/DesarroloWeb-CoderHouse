@@ -1,0 +1,806 @@
+
+//MOBILE//
+
+//-----------------Seccion MAIN-----------------//
+
+@media (min-width:0px) and (max-width:768px) {
+
+  main#main-index {
+
+    .container-fluid {
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+        .titulo{
+          width: 100%;
+            h1 {
+              font-size: $f-size-textos;
+            }
+        }   
+  
+      .row{
+        display: flex;
+        flex-direction: column;     
+        justify-content: center;
+        align-items: center;
+          article {   
+            width: 75%;
+            display: flex;
+            flex-direction: column;     
+            justify-content: center;
+            align-items: center;          
+          }
+          div {
+            width: 75%;
+            display: flex;
+            flex-direction: column;     
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }  
+
+      .software {
+        height: 50vh;
+          section {
+            height: 50vh;
+              img {
+                height: 50vh;
+              }
+              div {
+                h2 {
+                  padding: 10px;
+                  font-size: $f-size-secundaria;
+                }
+                p {
+                  font-size: $f-size-secundaria;
+                }
+                a.btn.btn-primary {
+                  height: 35px;
+                  width: 250px;
+                  font-size: $f-size-chica;
+                }
+              }
+          }    
+        }
+    }
+
+  main.container-fluid {
+    section.row {
+      flex-direction: column;
+        div {
+          width: 75%;
+            div.card-body {
+              width: 100%;
+            }
+        }
+    }
+  }
+    
+
+
+  //-----------------Inicio Sesion-----------------//
+
+  main#main-inicio-sesion {
+
+    form.email {
+      div.mb-3{
+       label.form-label{
+         font-size: $f-size-textos;
+         text-align: center;
+         width: 100%;
+        }
+        input#exampleInputEmail1.form-control {
+          height: 40px;
+          font-size: $f-size-chica;
+        }
+        div#emailHelp.form-text {
+          font-size: $f-size-chica;
+        }
+      }      
+    }
+
+    form.contrasena {
+      div.mb-3{
+        label.form-label {
+          font-size: $f-size-textos;
+          text-align: center;
+          width: 100%;
+         }
+        input#exampleInputPassword1.form-control {
+          height: 40px;
+          font-size: $f-size-chica;
+        }
+        span#passwordHelpInline.form-text {
+          font-size:$f-size-chica;
+          text-align: center;
+        }
+       }          
+    }
+
+    form.pais {
+      div.mb-3{
+        label.form-label {
+          font-size: $f-size-textos;
+          width: 100%;
+          text-align: center;
+         }
+         div#emailHelp.form-text {
+           text-align: center;
+         }
+       }  
+       select#disabledSelect.form-select {
+          height: 55px;
+       }    
+    }
+
+    div.mb-3.form-check {
+      align-items: center;
+      justify-content: center;
+      label.form-check-label {
+        text-align: center;
+        font-size: 1.2rem;
+      } 
+    }
+    a.btn.btn-primary {
+      width: 100%;
+      height: 30px;
+      font-size: $f-size-chica;
+    }
+  }
+
+  //-----------------Soporte y Contacto-----------------//
+
+  main#main-soporte-contacto {
+    height: 100%;
+    padding-bottom: 10px;
+    .titulo {
+      padding-top: 10px;
+      h2 {
+        font-size: $f-size-secundaria;
+      }       
+    }   
+    .seccion-dudas {
+      input {
+        font-size: $f-size-textos;
+      }
+    }
+    .preguntas-relacionadas {
+      .titulo {
+        padding-top: 0%;
+        h2 {
+          font-size: $f-size-secundaria;
+        }       
+      }
+      margin-top: 20px;
+        .preguntas {
+          display: flex;
+          flex-direction: column;
+            article {
+              width: 100%;
+              margin: 0%;
+              padding: 0px;
+                h3 {
+                  font-size: $f-size-secundaria;
+                }
+                p {
+                  font-size: $f-size-textos;
+                }
+            }    
+        }
+    }
+    .cards-informacion {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+        article {
+          margin-bottom: 20px ;
+          width: 100%;
+            h4 {
+              font-size: $f-size-textos;
+            }
+            p {
+              font-size: $f-size-textos;
+              text-align: center;
+            }
+        }
+    }
+    .servicios {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+      article {
+        width: 100%;
+        margin: 0%;
+        padding-top: 0%;
+          h3 {
+            font-size: $f-size-secundaria;
+          }
+          p {
+            font-size: $f-size-chica;
+            text-align: center;
+          }
+      } 
+    }
+    .ofertas {
+      margin-bottom: 0%;
+      height: 18vh;
+      padding: 0%;
+      article {
+        height: 100%;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: space-around;
+        h3 {
+          text-align: center;
+          font-size: $f-size-secundaria;
+          padding-top: 20px;
+          padding-left: 0%;
+        }
+        div.mb-3 {
+          flex-direction: column;
+          width: 100%;
+          padding-top: 0%;
+            label.form-label {
+              text-align: center;
+              margin-bottom: 10px;
+              font-size: $f-size-chica;
+            }
+            input#exampleInputEmail1.form-control {
+              font-size: $f-size-chica;
+              width:100%;
+              height: 30px;
+              padding: 15px;
+              text-align: center;
+            }
+        }
+      }
+
+        
+      }
+    }
+ 
+    //--------------------------INICIO SESION--------------------------//
+
+    main#main-inicio-sesion {
+      height: 73vh;
+
+      form.email {
+        div.mb-3{
+         label.form-label{
+           font-size: $f-size-textos;
+           text-align: center;
+           width: 100%;
+          }
+          input#exampleInputEmail1.form-control {
+            height: 40px;
+            font-size: $f-size-chica;
+          }
+          div#emailHelp.form-text {
+            font-size: $f-size-chica;
+          }
+        }      
+      }
+  
+      form.contrasena {
+        div.mb-3{
+          label.form-label {
+            font-size: $f-size-textos;
+            text-align: center;
+            width: 100%;
+           }
+          input#exampleInputPassword1.form-control {
+            height: 40px;
+            font-size: $f-size-chica;
+          }
+          span#passwordHelpInline.form-text {
+            font-size:$f-size-chica;
+            text-align: center;
+          }
+         }          
+      }
+  
+      form.pais {
+        div.mb-3{
+          label.form-label {
+            font-size: $f-size-textos;
+            width: 100%;
+            text-align: center;
+           }
+           div#emailHelp.form-text {
+             text-align: center;
+           }
+         }  
+         select#disabledSelect.form-select {
+            height: 55px;
+         }    
+      }
+  
+      div.mb-3.form-check {
+        align-items: center;
+        justify-content: center;
+        label.form-check-label {
+          text-align: center;
+          font-size: 1.2rem;
+        } 
+      }
+      a.btn.btn-primary {
+        width: 100%;
+        height: 30px;
+        font-size: $f-size-chica;
+        align-self: center;
+      }
+    }
+
+    //--------------------------SOPORTE Y CONTACTO--------------------------//
+   
+    #main-soporte-contacto {
+
+      .titulo{
+        padding-top: 0%;
+        width: 100%;
+          h2 {
+            font-size: $f-size;
+          }
+      }
+      .preguntas-relacionadas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+          article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+            h3 {
+              font-size: $f-size-textos;
+            }
+            p{
+              font-size: $f-size-textos;
+              text-align: center;
+            }    
+        }
+    } 
+      .cards-informacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+          article {
+            width: 100%;
+            padding: 10px;
+            margin: 10px;
+        }
+    }
+    
+  }
+
+}
+  
+  @media (min-width:769px) and (max-width:1024px) {
+
+    main#main-index {
+      height: 100%;
+      .row{
+        display: flex;
+        flex-direction: row;     
+      }
+    
+      .row article {   
+        width: 44vw;
+      }
+  
+      h1.text-center {
+        padding: 10px;
+      }
+  
+      .software {
+        height: 50vh;
+          section {
+            height: 50vh;
+            img {
+              height: 50vh;
+            }
+          div {
+            p {
+              font-size: $f-size-textos;
+            }
+            a{
+              height: 50px;
+              width: 170px;
+              font-size: $f-size-chica;
+            }
+          }
+        }
+      }
+    }
+
+    .row{
+      display: flex;
+      flex-direction: row;     
+    }
+  
+    .row article {   
+      width: 44vw;
+    }
+
+    h1.text-center {
+      padding: 10px;
+    }
+
+    .software {
+      height: 50vh;
+        section {
+          img {
+            height: 800px;
+          }
+        }
+        p {
+          font-size: $f-size-textos;
+        }
+    }
+
+    //--------------------------INICIO SESION--------------------------//
+
+    main#main-inicio-sesion {
+      height: 73vh;
+
+      form.email {
+        div.mb-3{
+         label.form-label{
+           font-size: $f-size-textos;
+           text-align: center;
+           width: 100%;
+          }
+          input#exampleInputEmail1.form-control {
+            height: 40px;
+            font-size: $f-size-chica;
+          }
+          div#emailHelp.form-text {
+            font-size: $f-size-chica;
+          }
+        }      
+      }
+
+      form.contrasena {
+        div.mb-3{
+          label.form-label {
+            font-size: $f-size-textos;
+            text-align: center;
+            width: 100%;
+           }
+          input#exampleInputPassword1.form-control {
+            height: 40px;
+            font-size: $f-size-chica;
+          }
+          span#passwordHelpInline.form-text {
+            font-size:$f-size-chica;
+            text-align: center;
+          }
+         }          
+      }
+  
+      form.pais {
+        div.mb-3{
+          label.form-label {
+            font-size: $f-size-textos;
+            width: 100%;
+            text-align: center;
+           }
+           div#emailHelp.form-text {
+             text-align: center;
+           }
+         }  
+         select#disabledSelect.form-select {
+            height: 55px;
+         }    
+      }
+  
+      div.mb-3.form-check {
+        align-items: center;
+        justify-content: center;
+        label.form-check-label {
+          text-align: center;
+          font-size: 1.2rem;
+        } 
+      }
+      a.btn.btn-primary {
+        width: 100%;
+        height: 30px;
+        font-size: $f-size-chica;
+        align-self: center;
+      }
+    }
+ 
+ 
+  //--------------------------SOPORTE--------------------------// 
+ 
+  main#main-soporte-contacto {
+    padding-bottom: 10px;
+    height: 100%;
+    section.seccion-dudas {
+      input {
+        height: 50px;
+        font-size: $f-size-textos;
+      }
+    }
+    section.preguntas-relacionadas {
+      div.titulo {
+        padding-top: 20px;
+        h2 {
+          font-size: $f-size-secundaria;
+        }
+      }
+      article.preguntas {
+        flex-direction: column;
+        article {
+          width: 100%;
+          margin: 0%;    
+          padding:20px;
+            h3 {
+              font-size: $f-size-textos;
+            }
+            p{
+              font-size: $f-size-textos;
+            }
+        }
+      }
+    }
+
+    section.cards-informacion {
+      padding-top: 30px;
+      article {
+       
+        h4 {
+          display: none;
+          font-size: $f-size-textos;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+        p {
+          font-size: $f-size-textos;
+          text-align: center;
+        }
+      }
+    }
+
+    //--------------------------CONTACTO--------------------------// 
+
+    
+      div.titulo {
+        padding-top: 20px;
+        h2 {
+          font-size:$f-size-secundaria;
+        }
+      }
+      section.servicios {
+        padding-top: 0%;      
+          article {     
+            h3 {
+              font-size: $f-size-secundaria;
+            }
+            p {
+              font-size: $f-size-textos;
+            }
+          }
+      }
+
+      section.cards-informacion {
+        padding-bottom: 10px;
+          article {
+            width: 50%;
+            margin: 10px; 
+          }
+      }
+
+      section.ofertas {
+        padding: 0%;
+        overflow: scroll;
+        margin: 5px;
+        article {
+          height: 10vh;
+          width: 100%;
+          padding: 10px;
+          flex-direction: column;
+          
+          h3 {
+            font-size: $f-size-textos;
+            text-align: center;
+          }
+            div.mb-3 {
+              padding: 0%;
+              margin: 0%;
+              width: 100%;
+              flex-direction: column;
+              align-items: center;
+                label.form-label {
+                  font-size: $f-size-chica;
+                  text-align: center;
+                }
+                input#exampleInputEmail1.form-control {
+                  height: 30px;
+                  width: 100%;
+                  margin-bottom: 10px;
+                  margin-top: 10px;
+                  text-align: center;
+                  font-size: $f-size-chica;
+                }
+            }     
+        }
+      }
+  }
+}
+
+@media (min-width:1024px) and (max-width:2100px) {
+
+  //--------------------------INICIO SESION--------------------------//
+
+  main#main-inicio-sesion {
+    height: 72vh;
+
+    form.email {
+      div.mb-3 {
+        label.form-label {
+          font-size:$f-size-secundaria;
+        }
+        div#emailHelp.form-text {
+          font-size: $f-size-chica;
+        }
+      }
+    }
+
+    form.contrasena {
+      div.mb-3 {
+        label.form-label {
+          font-size:$f-size-secundaria;
+        }
+        span#passwordHelpInline.form-text {
+          font-size: $f-size-chica;
+        }
+      }
+    }
+
+    form.pais {
+      div.mb-3 {
+        label.form-label {
+          font-size: $f-size-secundaria;
+        }
+      }
+    }
+
+    div.mb-3.form-check {
+      label.form-check-label {
+        font-size: $f-size-chica;
+      }
+    }
+
+    a.btn.btn-primary {
+      height: 30px;font-size: $f-size-chica;
+    }
+  }
+
+  //--------------------------SOPORTE--------------------------// 
+
+  main#main-soporte-contacto {
+    height: 100%;
+    padding-bottom: 10px;
+    section.preguntas-relacionadas {
+
+      div.titulo {
+        h2 {
+          font-size: $f-size-secundaria;
+        }
+      }
+
+      article.preguntas {
+        article {
+          margin: 0%;
+          padding-top: 0%;
+            h3 {
+              font-size: $f-size-secundaria;
+            }
+            p {
+              font-size: $f-size-textos;
+            }     
+        }
+      }
+    }
+
+    section.cards-informacion {
+      padding-top: 0%;
+        article {
+          h4 {
+            font-size: $f-size-textos;
+          }
+          p {
+            text-align: center;
+            font-size: $f-size-chica;
+            padding: 5px;
+          }
+          svg {
+            padding-top: 5px;
+          }
+        }
+      }
+
+      //--------------------------SOPORTE--------------------------//
+      div.titulo {
+        padding-top: 20px;
+        h2 {
+          font-size:$f-size-secundaria;
+        }
+      }
+      section.servicios {
+        padding-top: 0%;
+          article {
+            h3 {
+              font-size: $f-size-secundaria;
+            }
+            p {
+              font-size: $f-size-textos;
+            }
+          }
+      }
+
+      section.cards-informacion {
+        padding-bottom: 30px;
+          article {
+            width: 50%;
+            margin: 10px; 
+          }
+      }
+
+      section.ofertas {
+        padding: 0%;
+        height: 20vh;
+        article {
+          height: 10vh;
+          width: 100%;
+          padding: 0%;
+          flex-direction: column;
+          h3 {
+            font-size: $f-size-secundaria;
+            padding-top: 15px;
+            text-align: center;
+          }
+            div.mb-3 {
+              padding: 0%;
+              margin: 0%;
+              width: 100%;
+              flex-direction: column;
+              align-items: center;
+                label.form-label {
+                  font-size: $f-size-textos;
+                  text-align: center;
+                  margin-bottom: 0%;
+                }
+                input#exampleInputEmail1.form-control {       
+                  height: 50px;
+                  width: 800px;
+                  margin-bottom: 10px;
+                  margin-top: 15px;
+                  text-align: center;
+                  font-size: $f-size-chica;
+                }
+            }     
+        }
+      }
+    }
+
+    
+    
+}
+
+    
+    
+
+
+  
+
+
+  

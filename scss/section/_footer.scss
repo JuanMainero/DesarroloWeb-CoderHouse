@@ -1,0 +1,47 @@
+
+footer.container-fluid {
+    flex-direction: column;
+    background-color: $color-principal; 
+        a {
+            color: $color-terciario;
+            text-decoration: none;
+        }
+
+        li.list-group-item.text-center {
+            color: $color-terciario;
+            
+                &:hover {
+                    transform: scale(1.2);
+                    color: $color-cuaternario;
+                }        
+            svg {
+                &.bi.bi-instagram {
+                    color: $color-terciario;
+                    &:hover {
+                        color: map-get($redes, "instagram"),
+                    }
+                }
+                &.bi.bi-twitter {
+                    color: $color-terciario;
+                    &:hover {
+                    color: map-get($redes,"twitter");
+                    }
+                }
+                &.bi.bi-facebook {
+                    color: $color-terciario;
+                    &:hover {
+                color: map-get($redes,"facebook");
+                }
+                }
+                
+                &:hover {
+                    transform: scale(2);
+                }
+    
+            }           
+        }
+}
+
+
+
+

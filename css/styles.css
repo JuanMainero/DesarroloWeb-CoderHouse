@@ -1,0 +1,1007 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  main#main-index .container-fluid {
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  main#main-index .container-fluid .titulo {
+    width: 100%;
+  }
+  main#main-index .container-fluid .titulo h1 {
+    font-size: 1.5rem;
+  }
+  main#main-index .container-fluid .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main#main-index .container-fluid .row article {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main#main-index .container-fluid .row div {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main#main-index .software {
+    height: 50vh;
+  }
+  main#main-index .software section {
+    height: 50vh;
+  }
+  main#main-index .software section img {
+    height: 50vh;
+  }
+  main#main-index .software section div h2 {
+    padding: 10px;
+    font-size: 1.9rem;
+  }
+  main#main-index .software section div p {
+    font-size: 1.9rem;
+  }
+  main#main-index .software section div a.btn.btn-primary {
+    height: 35px;
+    width: 250px;
+    font-size: 1rem;
+  }
+  main.container-fluid section.row {
+    flex-direction: column;
+  }
+  main.container-fluid section.row div {
+    width: 75%;
+  }
+  main.container-fluid section.row div div.card-body {
+    width: 100%;
+  }
+  main#main-inicio-sesion form.email div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  main#main-inicio-sesion form.email div.mb-3 input#exampleInputEmail1.form-control {
+    height: 40px;
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.email div.mb-3 div#emailHelp.form-text {
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 input#exampleInputPassword1.form-control {
+    height: 40px;
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 span#passwordHelpInline.form-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 div#emailHelp.form-text {
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais select#disabledSelect.form-select {
+    height: 55px;
+  }
+  main#main-inicio-sesion div.mb-3.form-check {
+    align-items: center;
+    justify-content: center;
+  }
+  main#main-inicio-sesion div.mb-3.form-check label.form-check-label {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  main#main-inicio-sesion a.btn.btn-primary {
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+  }
+  main#main-soporte-contacto {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  main#main-soporte-contacto .titulo {
+    padding-top: 10px;
+  }
+  main#main-soporte-contacto .titulo h2 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto .seccion-dudas input {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas {
+    margin-top: 20px;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas .titulo {
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas .titulo h2 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas .preguntas {
+    display: flex;
+    flex-direction: column;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas .preguntas article {
+    width: 100%;
+    margin: 0%;
+    padding: 0px;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas .preguntas article h3 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto .preguntas-relacionadas .preguntas article p {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto .cards-informacion {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  main#main-soporte-contacto .cards-informacion article {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  main#main-soporte-contacto .cards-informacion article h4 {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto .cards-informacion article p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  main#main-soporte-contacto .servicios {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  main#main-soporte-contacto .servicios article {
+    width: 100%;
+    margin: 0%;
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto .servicios article h3 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto .servicios article p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  main#main-soporte-contacto .ofertas {
+    margin-bottom: 0%;
+    height: 18vh;
+    padding: 0%;
+  }
+  main#main-soporte-contacto .ofertas article {
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  main#main-soporte-contacto .ofertas article h3 {
+    text-align: center;
+    font-size: 1.9rem;
+    padding-top: 20px;
+    padding-left: 0%;
+  }
+  main#main-soporte-contacto .ofertas article div.mb-3 {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto .ofertas article div.mb-3 label.form-label {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  main#main-soporte-contacto .ofertas article div.mb-3 input#exampleInputEmail1.form-control {
+    font-size: 1rem;
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    text-align: center;
+  }
+  main#main-inicio-sesion {
+    height: 73vh;
+  }
+  main#main-inicio-sesion form.email div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  main#main-inicio-sesion form.email div.mb-3 input#exampleInputEmail1.form-control {
+    height: 40px;
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.email div.mb-3 div#emailHelp.form-text {
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 input#exampleInputPassword1.form-control {
+    height: 40px;
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 span#passwordHelpInline.form-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 div#emailHelp.form-text {
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais select#disabledSelect.form-select {
+    height: 55px;
+  }
+  main#main-inicio-sesion div.mb-3.form-check {
+    align-items: center;
+    justify-content: center;
+  }
+  main#main-inicio-sesion div.mb-3.form-check label.form-check-label {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  main#main-inicio-sesion a.btn.btn-primary {
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+    align-self: center;
+  }
+  #main-soporte-contacto .titulo {
+    padding-top: 0%;
+    width: 100%;
+  }
+  #main-soporte-contacto .titulo h2 {
+    font-size: 3rem;
+  }
+  #main-soporte-contacto .preguntas-relacionadas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  }
+  #main-soporte-contacto .preguntas-relacionadas article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  #main-soporte-contacto .preguntas-relacionadas article h3 {
+    font-size: 1.5rem;
+  }
+  #main-soporte-contacto .preguntas-relacionadas article p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  #main-soporte-contacto .cards-informacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+  }
+  #main-soporte-contacto .cards-informacion article {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  main#main-index {
+    height: 100%;
+  }
+  main#main-index .row {
+    display: flex;
+    flex-direction: row;
+  }
+  main#main-index .row article {
+    width: 44vw;
+  }
+  main#main-index h1.text-center {
+    padding: 10px;
+  }
+  main#main-index .software {
+    height: 50vh;
+  }
+  main#main-index .software section {
+    height: 50vh;
+  }
+  main#main-index .software section img {
+    height: 50vh;
+  }
+  main#main-index .software section div p {
+    font-size: 1.5rem;
+  }
+  main#main-index .software section div a {
+    height: 50px;
+    width: 170px;
+    font-size: 1rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  .row article {
+    width: 44vw;
+  }
+  h1.text-center {
+    padding: 10px;
+  }
+  .software {
+    height: 50vh;
+  }
+  .software section img {
+    height: 800px;
+  }
+  .software p {
+    font-size: 1.5rem;
+  }
+  main#main-inicio-sesion {
+    height: 73vh;
+  }
+  main#main-inicio-sesion form.email div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  main#main-inicio-sesion form.email div.mb-3 input#exampleInputEmail1.form-control {
+    height: 40px;
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.email div.mb-3 div#emailHelp.form-text {
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 input#exampleInputPassword1.form-control {
+    height: 40px;
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 span#passwordHelpInline.form-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 div#emailHelp.form-text {
+    text-align: center;
+  }
+  main#main-inicio-sesion form.pais select#disabledSelect.form-select {
+    height: 55px;
+  }
+  main#main-inicio-sesion div.mb-3.form-check {
+    align-items: center;
+    justify-content: center;
+  }
+  main#main-inicio-sesion div.mb-3.form-check label.form-check-label {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  main#main-inicio-sesion a.btn.btn-primary {
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+    align-self: center;
+  }
+  main#main-soporte-contacto {
+    padding-bottom: 10px;
+    height: 100%;
+  }
+  main#main-soporte-contacto section.seccion-dudas input {
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas div.titulo {
+    padding-top: 20px;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas div.titulo h2 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas {
+    flex-direction: column;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas article {
+    width: 100%;
+    margin: 0%;
+    padding: 20px;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas article h3 {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas article p {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.cards-informacion {
+    padding-top: 30px;
+  }
+  main#main-soporte-contacto section.cards-informacion article h4 {
+    display: none;
+    font-size: 1.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  main#main-soporte-contacto section.cards-informacion article p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  main#main-soporte-contacto div.titulo {
+    padding-top: 20px;
+  }
+  main#main-soporte-contacto div.titulo h2 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.servicios {
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto section.servicios article h3 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.servicios article p {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.cards-informacion {
+    padding-bottom: 10px;
+  }
+  main#main-soporte-contacto section.cards-informacion article {
+    width: 50%;
+    margin: 10px;
+  }
+  main#main-soporte-contacto section.ofertas {
+    padding: 0%;
+    overflow: scroll;
+    margin: 5px;
+  }
+  main#main-soporte-contacto section.ofertas article {
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  main#main-soporte-contacto section.ofertas article h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  main#main-soporte-contacto section.ofertas article div.mb-3 {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  main#main-soporte-contacto section.ofertas article div.mb-3 label.form-label {
+    font-size: 1rem;
+    text-align: center;
+  }
+  main#main-soporte-contacto section.ofertas article div.mb-3 input#exampleInputEmail1.form-control {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 2100px) {
+  main#main-inicio-sesion {
+    height: 72vh;
+  }
+  main#main-inicio-sesion form.email div.mb-3 label.form-label {
+    font-size: 1.9rem;
+  }
+  main#main-inicio-sesion form.email div.mb-3 div#emailHelp.form-text {
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 label.form-label {
+    font-size: 1.9rem;
+  }
+  main#main-inicio-sesion form.contrasena div.mb-3 span#passwordHelpInline.form-text {
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion form.pais div.mb-3 label.form-label {
+    font-size: 1.9rem;
+  }
+  main#main-inicio-sesion div.mb-3.form-check label.form-check-label {
+    font-size: 1rem;
+  }
+  main#main-inicio-sesion a.btn.btn-primary {
+    height: 30px;
+    font-size: 1rem;
+  }
+  main#main-soporte-contacto {
+    height: 100%;
+    padding-bottom: 10px;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas div.titulo h2 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas article {
+    margin: 0%;
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas article h3 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.preguntas-relacionadas article.preguntas article p {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.cards-informacion {
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto section.cards-informacion article h4 {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.cards-informacion article p {
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+  }
+  main#main-soporte-contacto section.cards-informacion article svg {
+    padding-top: 5px;
+  }
+  main#main-soporte-contacto div.titulo {
+    padding-top: 20px;
+  }
+  main#main-soporte-contacto div.titulo h2 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.servicios {
+    padding-top: 0%;
+  }
+  main#main-soporte-contacto section.servicios article h3 {
+    font-size: 1.9rem;
+  }
+  main#main-soporte-contacto section.servicios article p {
+    font-size: 1.5rem;
+  }
+  main#main-soporte-contacto section.cards-informacion {
+    padding-bottom: 30px;
+  }
+  main#main-soporte-contacto section.cards-informacion article {
+    width: 50%;
+    margin: 10px;
+  }
+  main#main-soporte-contacto section.ofertas {
+    padding: 0%;
+    height: 20vh;
+  }
+  main#main-soporte-contacto section.ofertas article {
+    height: 10vh;
+    width: 100%;
+    padding: 0%;
+    flex-direction: column;
+  }
+  main#main-soporte-contacto section.ofertas article h3 {
+    font-size: 1.9rem;
+    padding-top: 15px;
+    text-align: center;
+  }
+  main#main-soporte-contacto section.ofertas article div.mb-3 {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  main#main-soporte-contacto section.ofertas article div.mb-3 label.form-label {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0%;
+  }
+  main#main-soporte-contacto section.ofertas article div.mb-3 input#exampleInputEmail1.form-control {
+    height: 50px;
+    width: 800px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+header {
+  background-color: black;
+}
+header .navbar-nav .nav-item a.nav-link.active:hover {
+  color: #6E85B2;
+  transform: scale(1.2);
+}
+header .navbar-nav .nav-item a.nav-link:hover {
+  color: #6E85B2;
+  transform: scale(1.2);
+}
+
+main {
+  background-color: #191919;
+}
+main .container-fluid {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+main .container-fluid .card-body {
+  text-align: center;
+}
+main .container-fluid .card-body a {
+  color: #6E85B2;
+}
+main .container-fluid .card-body a:hover {
+  transform: scale(2);
+}
+main .container-fluid .card-body svg:hover {
+  transform: scale(1.2);
+}
+main .software {
+  height: 60vh;
+}
+main .software section {
+  height: 60vh;
+}
+main .software section img {
+  height: 60vh;
+}
+main .software section div h2 {
+  color: #6E85B2;
+}
+main .software a.btn.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #6E85B2;
+  border: black;
+  font-size: 1.5rem;
+  height: 70px;
+  width: 350px;
+}
+main .software a.btn.btn-primary:hover {
+  border: white;
+  transform: scale(1.1);
+}
+main .software p {
+  color: #6E85B2;
+}
+main .software img {
+  filter: brightness(0.33);
+  filter: blur(5px);
+}
+
+footer.container-fluid {
+  flex-direction: column;
+  background-color: black;
+}
+footer.container-fluid a {
+  color: #6E85B2;
+  text-decoration: none;
+}
+footer.container-fluid li.list-group-item.text-center {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center:hover {
+  transform: scale(1.2);
+  color: white;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-instagram {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-instagram:hover {
+  color: #C25E30;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-twitter {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-twitter:hover {
+  color: #55acee;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-facebook {
+  color: #6E85B2;
+}
+footer.container-fluid li.list-group-item.text-center svg.bi.bi-facebook:hover {
+  color: #3a5795;
+}
+footer.container-fluid li.list-group-item.text-center svg:hover {
+  transform: scale(2);
+}
+
+#main-inicio-sesion {
+  height: 80vh;
+  display: grid;
+  grid-template-rows: repeat(2, 20vh) 15vh 5vh 5vh;
+  grid-template-areas: "email" "contrasena" "selector-pais" "boton-terminos" "boton-inicio";
+  padding: 10px;
+}
+#main-inicio-sesion form.email {
+  grid-area: "email";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main-inicio-sesion form.email div.mb-3 label.form-label {
+  color: white;
+  font-size: 3rem;
+}
+#main-inicio-sesion form.email div.mb-3 input#exampleInputEmail1.form-control {
+  font-size: 1.5rem;
+  background-color: #1B1B1E;
+  border: solid 3px black;
+}
+#main-inicio-sesion form.email div.mb-3 div#emailHelp.form-text {
+  font-size: 1.5rem;
+  color: white;
+}
+#main-inicio-sesion form.contrasena {
+  grid-area: "contrasena";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main-inicio-sesion form.contrasena div.mb-3 label.form-label {
+  color: white;
+  font-size: 3rem;
+}
+#main-inicio-sesion form.contrasena div.mb-3 input#exampleInputPassword1.form-control {
+  font-size: 1.5rem;
+  background-color: #1B1B1E;
+  color: white;
+  border: solid 3px black;
+}
+#main-inicio-sesion form.contrasena div.mb-3 span#passwordHelpInline.form-text {
+  font-size: 1.5rem;
+  color: white;
+}
+#main-inicio-sesion form.pais {
+  grid-area: "selector-pais";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main-inicio-sesion form.pais div.mb-3 label.form-label {
+  color: white;
+  font-size: 3rem;
+}
+#main-inicio-sesion form.pais div.mb-3 select#disabledSelect.form-select {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #1B1B1E;
+  border: solid 3px black;
+}
+#main-inicio-sesion div.mb-3.form-check {
+  grid-area: "boton-terminos";
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#main-inicio-sesion div.mb-3.form-check input#exampleCheck1.form-check-input {
+  background-color: #6E85B2;
+}
+#main-inicio-sesion div.mb-3.form-check label.form-check-label {
+  font-size: 1.5rem;
+  color: white;
+  padding-left: 5px;
+}
+#main-inicio-sesion a.btn.btn-primary {
+  grid-area: "boton-inicio";
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6E85B2;
+  border: white;
+  font-size: 1.5rem;
+}
+#main-inicio-sesion a.btn.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+#main-soporte-contacto {
+  height: 90vh;
+}
+#main-soporte-contacto .titulo {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#main-soporte-contacto .titulo h2 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.678);
+}
+#main-soporte-contacto .seccion-dudas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-soporte-contacto .seccion-dudas input {
+  width: 80%;
+  height: 80px;
+  margin-top: 20px;
+  font-size: 1.9rem;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+#main-soporte-contacto .preguntas-relacionadas .preguntas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0%;
+}
+#main-soporte-contacto .preguntas-relacionadas .preguntas article {
+  width: 40vw;
+  padding: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  align-self: flex-start;
+}
+#main-soporte-contacto .preguntas-relacionadas .preguntas article h3 {
+  font-size: 3rem;
+  color: #6E85B2;
+  text-align: center;
+}
+#main-soporte-contacto .preguntas-relacionadas .preguntas article p {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.9rem;
+  color: white;
+}
+#main-soporte-contacto .preguntas-relacionadas .preguntas article p a {
+  color: #6E85B2;
+}
+#main-soporte-contacto .servicios {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+#main-soporte-contacto .servicios article {
+  width: 50%;
+  padding: 30px;
+}
+#main-soporte-contacto .servicios article h3 {
+  font-size: 3rem;
+  color: #6E85B2;
+  text-align: center;
+}
+#main-soporte-contacto .servicios article p {
+  font-size: 1.9rem;
+  color: white;
+}
+#main-soporte-contacto .cards-informacion {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#main-soporte-contacto .cards-informacion article {
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 5px black;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+#main-soporte-contacto .cards-informacion article svg {
+  color: #6E85B2;
+}
+#main-soporte-contacto .cards-informacion article h4 {
+  color: #6E85B2;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 10px;
+}
+#main-soporte-contacto .cards-informacion article p {
+  color: white;
+  font-size: 1.5rem;
+}
+#main-soporte-contacto .ofertas {
+  padding: 50px;
+  margin: 15px;
+  border: solid 5px black;
+  border-radius: 30px;
+  height: 15vh;
+}
+#main-soporte-contacto .ofertas article {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  align-items: center;
+}
+#main-soporte-contacto .ofertas article h3 {
+  font-size: 3rem;
+  padding: 0%;
+  color: #6E85B2;
+}
+#main-soporte-contacto .ofertas article div.mb-3 {
+  display: flex;
+  width: 1000px;
+  padding-top: 0px;
+}
+#main-soporte-contacto .ofertas article div.mb-3 label.form-label {
+  color: white;
+  font-size: 1.5rem;
+}
+#main-soporte-contacto .ofertas article div.mb-3 input {
+  padding: 10px;
+  height: 70px;
+  font-size: 1.5rem;
+}
+
+main.container-fluid {
+  padding-top: 10px;
+}
+main.container-fluid .row {
+  justify-content: center;
+  align-items: center;
+}
+main.container-fluid .row div.card-body a.btn.btn-primary {
+  color: white;
+  background-color: #6E85B2;
+  border: black;
+}
+main.container-fluid .row div.card-body a.btn.btn-primary:hover {
+  border: #6E85B2;
+  transform: scale(1.2);
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo h1 {
+  color: white;
+  font-size: 1.9rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.678);
+  padding: 5px;
+  width: 100%;
+}
+.titulo h2 {
+  color: white;
+  font-size: 1.9rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.678);
+  padding: 5px;
+  width: 100%;
+}
+
+h1.text-center {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.623);
+  padding: 10px;
+}
+
+/*# sourceMappingURL=styles.css.map */
